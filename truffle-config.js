@@ -44,7 +44,7 @@ module.exports = {
     //
     development: {
      host: "127.0.0.1",     // Localhost (default: none)
-     port: 9545,            // Standard Ethereum port (default: none)
+     port: 7545,            // Standard Ethereum port (default: none)
      network_id: "*",       // Any network (default: none)
     },
 
@@ -54,6 +54,14 @@ module.exports = {
      gas: 4500000,        // Rinkeby has a lower block limit than mainnet
      gasPrice: 10000000000
   },
+
+  ropsten: {
+    provider: () => new HDWalletProvider(mnemonic, `https://ropsten.infura.io/v3/fd138eecaeef4e309b54dcf4ecbf394d`),
+    network_id: 3,       // Ropsten's id
+    gas: 5500000,        // Ropsten has a lower block limit than mainnet
+    gasPrice: 10000000000,
+    timeoutBlocks: 5
+ },
     // Another network with more advanced options...
     // advanced: {
       // port: 8777,             // Custom port

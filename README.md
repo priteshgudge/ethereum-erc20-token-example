@@ -16,6 +16,8 @@ ERC20 Token Example deployed on Rinkeby Test Net
 
 6) Run `npm install openzeppelin-solidity@2.0.0`
 
+### Use decimals value small: https://www.trufflesuite.com/tutorials/robust-smart-contracts-with-openzeppelin
+
 ## Setup Infura
 
 1. Go to https://infura.io
@@ -76,4 +78,10 @@ module.exports = {
   }
 }
 
+```
+
+Running on Ropsten
+
+``` bash
+truffle migrate --reset --network ropsten
 ```
