@@ -14,7 +14,7 @@ ERC20 Token Example deployed on Rinkeby Test Net
 
 5) Run `npm install --save truffle-hdwallet-provider` used to set up the provider to connect to the Infura Node
 
-6) Run `npm install openzeppelin-solidity`
+6) Run `npm install openzeppelin-solidity@2.0.0`
 
 ## Setup Infura
 
