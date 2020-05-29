@@ -1,0 +1,27 @@
+{
+  "name": "sampleerc20token",
+  "version": "1.0.0",
+  "description": "ERC20 Token Example deployed on Rinkeby Test Net",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "^3.0.1",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priteshgudge/ethereum-erc20-token-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priteshgudge/ethereum-erc20-token-example/issues"
+  },
+  "homepage": "https://github.com/priteshgudge/ethereum-erc20-token-example#readme"
+}

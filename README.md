@@ -4,17 +4,17 @@ ERC20 Token Example deployed on Rinkeby Test Net
 
 ## Getting Started
 
-1) Verify you have the Truffle (v5.0.2) latest installed if not use the command npm install -g truffle
+1) Verify you have the Truffle (v5.0.2) latest installed if not use the command `npm install -g truffle`
 
-2) Use mkdir SampleToken to create a directory
+2) Use `mkdir SampleToken` to create a directory
 
-3) cd SampleToken
+3) `cd SampleToken`
 
-4) Run the command: truffle init to initialize a truffle project.
+4) Run the command: `truffle init` to initialize a truffle project.
 
-5) Run npm install --save truffle-hdwallet-provider used to set up the provider to connect to the Infura Node
+5) Run `npm install --save truffle-hdwallet-provider` used to set up the provider to connect to the Infura Node
 
-6) Run npm install openzeppelin-solidity
+6) Run `npm install openzeppelin-solidity`
 
 ## Setup Infura
 
